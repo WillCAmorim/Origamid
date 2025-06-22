@@ -1,0 +1,154 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #F7F7F7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+}
+
+p{
+  font-size: 20px
+}
+
+h1{
+  font-size: 25px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
+.imginicio{
+  margin-top: 60px;
+}
+
+.menu{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.menu a{
+  display: block;
+  color: black;
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: #FFFFFF;
+}
+
+.menu a:hover{
+  outline: 2px solid #EE2211;
+}
+
+main{
+  display: grid;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+ .bike {
+  max-width: 100%;
+  min-width: 360px;
+  display: block;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article::before{
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: #EE2211;
+  position: absolute;
+  top:35px;
+  right: -30px;
+}
+
+article{
+  display: grid;
+  text-align: right;
+  padding: 40px;
+  background-color: white;
+  align-content: center;
+  justify-items: end;
+  gap:20px;
+  position: relative;
+}
+
+article > a{
+  background-color: #EE2211;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  justify-items: center;
+  color: white;
+}
+
+article > a:hover{
+  background-color: #85150b ;
+}
+
+.subtitulo {
+  display: grid;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #C6C6C6;
+  align-self: center;
+  text-align: end;
+  padding: 40px;
+}
+
+.vantagens{
+  background-color: white;
+  padding: 40px;
+}
+
+.vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  border-bottom: 4px solid transparent;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.vantagens-item:nth-child(odd){
+  background-color: #F7F7F7;
+}
+
+.vantagens-item:hover {
+  border-color: #e21;
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.644);
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 60px;
+}

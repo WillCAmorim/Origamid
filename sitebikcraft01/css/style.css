@@ -11,13 +11,13 @@ body{
 }
 
 p{
-  font-size: 20px
+  font-size: 1.25rem;
+  line-height: 1.6;
 }
 
 h1{
-  font-size: 25px;
+  font-size: 1.6rem;
 }
-
 
 a{
   text-decoration: none;
@@ -30,25 +30,25 @@ li{
 header{
   display: grid;
   justify-items: center;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
 .imginicio{
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .menu{
   display: flex;
-  gap: 30px;
+  gap: 1.87rem;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.13rem;
 }
 
 .menu a{
   display: block;
   color: black;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 0.93rem 1.87rem;
   background-color: #FFFFFF;
 }
 
@@ -76,7 +76,7 @@ main{
 
 article::before{
   content: '';
-  width: 60px;
+  width: 3.75rem;
   height: 4px;
   background-color: #EE2211;
   position: absolute;
@@ -87,11 +87,11 @@ article::before{
 article{
   display: grid;
   text-align: right;
-  padding: 40px;
+  padding: 2.5rem;
   background-color: white;
   align-content: center;
   justify-items: end;
-  gap:20px;
+  gap:1.87rem;
   position: relative;
 }
 
@@ -114,22 +114,23 @@ article > a:hover{
   color: #C6C6C6;
   align-self: center;
   text-align: end;
-  padding: 40px;
+  padding: 2.5rem;
+  background-image: url(../img/onda.svg);
 }
 
 .vantagens{
   background-color: white;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .vantagens-item{
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px;
+  gap: 0.63rem 1.87rem;
   border-bottom: 4px solid transparent;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px;
+  padding: 1.87rem;
+  border-radius: 0.63rem;
+  margin: 1.87rem;
 }
 
 .vantagens-item p {
@@ -148,7 +149,7 @@ footer{
   text-align: center;
   background-color: rgba(255, 255, 255, 0.644);
   width: 100%;
-  padding: 40px;
+  padding: 2.5rem;
   box-sizing: border-box;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }

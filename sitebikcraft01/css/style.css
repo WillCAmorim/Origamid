@@ -153,3 +153,79 @@ footer{
   box-sizing: border-box;
   margin-top: 3.75rem;
 }
+
+/* RESPONSIVIDADE MOBILE */
+
+@media (max-width: 600px){
+  body{
+    display: grid;
+    justify-content: center;  
+  }
+  p{
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+h1{
+  font-size: 1.2rem;
+}
+
+.menu > a {
+  font-size: 1rem;
+}
+
+article::before{
+  content: none;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.menu{
+  gap: 0.2rem;
+}
+
+.menu a{
+  padding: 6px 10px;
+  font-size: 0.8rem;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+article{
+  justify-items: center;
+  text-align: center;
+}
+}
+
+@media (max-width: 1000px){
+  .grid{
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  body{
+    display: grid;
+    justify-content: center;  
+  }
+
+  article::before{
+  content: none;
+}
+
+article{
+  justify-items: center;
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 60px;
+}
+}
